@@ -10,6 +10,12 @@ This Go program extracts and processes JavaScript files from a ZIP archive, spec
 4. It then uses the goja JavaScript interpreter to execute the modified script and extract the data variable.
 5. The extracted data is marshaled into JSON format and output to the console.
 
+## Todo
+
+- Select a destination for export
+  - separate files? via an ORM to a database?
+- Release to go.dev
+
 ## Prerequisites
 
 Ensure you have Go installed on your system.
